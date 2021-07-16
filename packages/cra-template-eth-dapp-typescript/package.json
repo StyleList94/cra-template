@@ -1,0 +1,27 @@
+{
+  "name": "cra-template-eth-dapp-typescript",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "ethereum",
+    "DApp"
+  ],
+  "description": "The base template for React Ethereum DApp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LovelyHaRa/cra-template-eth-dapp.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "bugs": {
+    "url": "https://github.com/LovelyHaRa/cra-template-eth-dapp/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
