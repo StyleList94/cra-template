@@ -26,12 +26,18 @@
 }
 
 button {
-  padding: 0.5rem;
+  padding: 1rem;
+  border-radius: 12px;
   outline: none;
-  background-color: #f3f0ff;
+  background-color: #f1f3f5;
   border-radius: 0.25rem;
   border: 0;
   cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.button-disconnect {
+  background-color: #ffc9c9;
 }
 
 button:hover {
@@ -39,9 +45,13 @@ button:hover {
 }
 
 button:active {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 button + button {
   margin-top: 1rem;
+}
+
+.text-error {
+  color: #ff6b6b;
 }
