@@ -11,7 +11,7 @@
 npx create-react-app my-app --template eth-dapp-typescript
 
 # or yarn
-yarn create react-app my-app -template eth-dapp-typescript
+yarn create react-app my-app --template eth-dapp-typescript
 ```
 
 ## Structure

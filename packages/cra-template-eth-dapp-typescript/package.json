@@ -1,6 +1,6 @@
 {
   "name": "cra-template-eth-dapp-typescript",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "keywords": [
     "react",
     "create-react-app",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/LovelyHaRa/cra-template.git"
   },
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "engines": {
     "node": ">=12"
   },
