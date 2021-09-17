@@ -1,0 +1,27 @@
+{
+  "name": "cra-template-pretty-code",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "eslint",
+    "airbnb-eslint",
+    "prettier"
+  ],
+  "description": "Create React App with Typescript, ESLint, Prettier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LovelyHaRa/cra-template.git",
+    "directory": "packages/cra-template-pretty-code"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
