@@ -4,7 +4,9 @@
     "packages/*"
   ],
   "version": "independent",
-  "publish": {
-    "message": "chore(release): publish"
+  "command": {
+    "publish": {
+      "message": "chore(release): publish"
+    }
   }
 }
