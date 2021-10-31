@@ -3,5 +3,8 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent"
+  "version": "independent",
+  "publish": {
+    "message": "chore(release): publish"
+  }
 }
