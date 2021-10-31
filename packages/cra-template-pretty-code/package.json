@@ -16,6 +16,7 @@
     "url": "https://github.com/LovelyHaRa/cra-template.git",
     "directory": "packages/cra-template-pretty-code"
   },
+  "homepage": "https://github.com/LovelyHaRa/cra-template/tree/main/packages/cra-template-pretty-code#readme",
   "license": "MIT",
   "engines": {
     "node": ">=14"
