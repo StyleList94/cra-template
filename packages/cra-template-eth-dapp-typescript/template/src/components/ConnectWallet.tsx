@@ -3,9 +3,9 @@ import { useWeb3React } from '@web3-react/core';
 import { Web3Provider } from '@ethersproject/providers';
 
 import { useEagerConnect, useInactiveListener } from '../hooks';
-import connectorList, { resetWalletConnectConnector } from '../lib/connectors';
+import connectorList from '../lib/connectors';
 
-type ConnectorName = 'MetaMask' | 'Portis' | 'WalletConnect' | 'WalletLink';
+type ConnectorName = 'MetaMask' | 'Portis';
 
 const ConnectWallet = () => {
   const [isConnecing, setIsConnecing] = useState(false);
@@ -26,7 +26,6 @@ const ConnectWallet = () => {
 
   const handleRetry = () => {
     setIsConnecing(false);
-    resetWalletConnectConnector(connectorList['WalletConnect']);
     deactivate();
   };
 
@@ -50,12 +49,6 @@ const ConnectWallet = () => {
           </button>
           <button onClick={handleClick('Portis')} disabled={isConnecing}>
             Connect on Portis
-          </button>
-          <button onClick={handleClick('WalletConnect')} disabled={isConnecing}>
-            Connect on WalletConnect
-          </button>
-          <button onClick={handleClick('WalletLink')} disabled={isConnecing}>
-            Connect on WalletLink
           </button>
         </>
       )}
